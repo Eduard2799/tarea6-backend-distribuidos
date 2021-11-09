@@ -9,3 +9,5 @@ module.exports =  {
   'Access-Control-Allow-Credentials': true,
   'content-Type' : 'application/json'
 };
+
+console.log(module.exports);
