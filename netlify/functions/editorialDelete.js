@@ -1,7 +1,7 @@
 "use strict"
 
-const clientPromise = require('../mongoDB');
-const headers = require('../headersCORS');
+const clientPromise = require('./mongoDB');
+const headers = require('./headersCORS');
 
 exports.handler = async (event, context) => {
 
